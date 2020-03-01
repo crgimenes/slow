@@ -6,15 +6,23 @@ import (
 	"io"
 	"os"
 	"time"
+
+	"github.com/crgimenes/goconfig"
 )
 
-var bps = 300
+type config struct {
+	BPS int `cfg:"bps" cfgDefault:"300"`
+}
 
 func main() {
 	var (
 		err error
 		c   rune
 	)
+
+	cfg := config{}
+	err = goconfig.Parse(&cfg)
+
 	reader := bufio.NewReader(os.Stdin)
 	for {
 		c, _, err = reader.ReadRune()
@@ -25,7 +33,7 @@ func main() {
 			println(err)
 		}
 
-		<-time.After(time.Second / time.Duration(bps/8))
+		<-time.After(time.Second / time.Duration(cfg.BPS/8))
 		fmt.Print(string(c))
 	}
 }
