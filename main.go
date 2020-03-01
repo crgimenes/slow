@@ -8,6 +8,8 @@ import (
 	"time"
 )
 
+var bps = 300
+
 func main() {
 	var (
 		err error
@@ -23,7 +25,7 @@ func main() {
 			println(err)
 		}
 
-		<-time.After(time.Duration(15) * time.Millisecond)
+		<-time.After(time.Second / time.Duration(bps/8))
 		fmt.Print(string(c))
 	}
 }
