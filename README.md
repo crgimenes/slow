@@ -20,7 +20,7 @@ cat asciiart.txt|slow -bps 1440
 
 ## Install
 
-### Insgall via golang
+### Install via golang
 
 ```console
 go install github.com/crgimenes/slow
