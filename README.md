@@ -15,7 +15,7 @@ ls -al|slow
 Decreases the output speed of the `cat` command to *14,400bps*.
 
 ```console
-cat asciiart.txt|slow -bps 1440
+cat asciiart.txt|slow -bps 14400
 ```
 
 ## Install
