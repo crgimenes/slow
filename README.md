@@ -18,6 +18,12 @@ Decreases the output speed of the `cat` command to *14,400bps*.
 cat asciiart.txt|slow -bps 14400
 ```
 
+Print file at 1,200bps 
+
+```console
+slow -f asciiart.txt -bps 1200
+```
+
 ## Install
 
 ### Install via golang
