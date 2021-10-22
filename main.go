@@ -31,7 +31,13 @@ func main() {
 
 	cfg := config{}
 	goconfig.PrefixEnv = "SLOW"
+
 	err = goconfig.Parse(&cfg)
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(-1)
+	}
+
 	f = os.Stdin
 
 	if cfg.FileName != "-" {
