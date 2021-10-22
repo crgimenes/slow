@@ -46,18 +46,22 @@ func main() {
 			fmt.Println(err)
 			os.Exit(1)
 		}
+
 		defer closer(f)
 	}
 
 	reader := bufio.NewReader(f)
+
 	for {
 		c, _, err = reader.ReadRune()
 		if err != nil {
 			if err == io.EOF {
 				break
 			}
-			println(err)
+
+			fmt.Println(err)
 		}
+
 		<-time.After(time.Second / time.Duration(cfg.BPS/8))
 		fmt.Print(string(c))
 	}
