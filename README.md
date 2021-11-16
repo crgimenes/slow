@@ -4,7 +4,7 @@
 
 The default output speed is *300bps* (bits per second) but you can change it using the *-bps* parameter and the speed.
 
-## Esage Examples
+  ## Usage Examples
 
 Decreases the output speed of the `ls -al` command to *300bps*.
 
@@ -34,5 +34,4 @@ go install github.com/crgimenes/slow
 
 ## Comments
 
-The *slow* is compatible with UTF-8 and the difference in the size of the symbols is purposely not taken into account. This way we simulate what it would be like if it were the output via code page with each symbol occupying only 1 byte.
-
+The *slow* is compatible with UTF-8, and the difference in the size of the symbols is purposely not taken into account. Instead, we simulate what it would be like if the output via code page with each character occupying only 1 byte.
