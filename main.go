@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gosidekick/goconfig"
+	"github.com/crgimenes/goconfig"
 )
 
 type config struct {
