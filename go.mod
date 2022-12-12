@@ -1,4 +1,4 @@
-module github.com/crgimenes/slow
+module crg.eti.br/go/slow
 
 go 1.19
 

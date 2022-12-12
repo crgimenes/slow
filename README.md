@@ -29,7 +29,7 @@ slow -f asciiart.txt -bps 1200
 ### Install via golang
 
 ```console
-go install github.com/crgimenes/slow
+go install crg.eti.br/go/slow
 ```
 
 ## Comments
