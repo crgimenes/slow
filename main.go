@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/crgimenes/goconfig"
+	goconfig "crg.eti.br/go/config"
 )
 
 type config struct {
