@@ -1,7 +1,2 @@
-crg.eti.br/go/config v1.4.12 h1:nbeBwueihCYMwuBJbC3+modxq3s9ummIANeUWFfF/GE=
-crg.eti.br/go/config v1.4.12/go.mod h1:wUyKey2R/UkmCfO2qZWxq+dzsL+alDl/B63AIJP9nIE=
-github.com/fsnotify/fsnotify v1.6.0 h1:n+5WquG0fcWoWp6xPWfHdbskMCQaFnG6PfBrh1Ky4HY=
-github.com/fsnotify/fsnotify v1.6.0/go.mod h1:sl3t1tCWJFWoRz9R8WJCbQihKKwmorjAbSClcnxKAGw=
-golang.org/x/sys v0.0.0-20220908164124-27713097b956/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
-golang.org/x/sys v0.5.0 h1:MUK/U/4lj1t1oPg0HfuXDN/Z1wv31ZJ/YcPiGccS4DU=
-golang.org/x/sys v0.5.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+crg.eti.br/go/config v1.4.13 h1:N8qnS7JTYafJWNScsiEwAfH4VWGXowkNXt7xBqRmP/w=
+crg.eti.br/go/config v1.4.13/go.mod h1:hI7cWzMLNlhnC2fGyGa37+Gz4K+khjWailvDYWXe9N4=
