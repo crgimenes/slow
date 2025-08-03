@@ -1,5 +1,3 @@
-module crg.eti.br/go/slow
+module slow
 
-go 1.23
-
-require crg.eti.br/go/config v1.5.0
+go 1.24
