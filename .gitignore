@@ -17,3 +17,4 @@ slow
 slow-*
 .vscode
 release.sh
+releaseC.sh
